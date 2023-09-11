@@ -1,0 +1,1313 @@
+{
+    "dashboard": {
+        "title": "Dashboard"
+    },
+    "features": {
+        "fileUpload": {
+            "chooseFile": "Cargar archivo",
+            "invalid_size": "El archivo es demasiado grande. Pruebe con otro formato o comprímelo."
+        },
+        "f3": {
+            "dataTable": {
+                "empty": "Sin datos"
+            }
+        },
+        "f1": {
+            "detail": {
+                "tabEmpty": "Sin resultados",
+                "tabType": "Tipo",
+                "tabEmployee": "Empleado",
+                "tabCompany": "Empresa",
+                "tabIssuerName": "Solicitante",
+                "tabCdr": "Cdr",
+                "label": {
+                    "country": "País",
+                    "adryan": "Código Adryan",
+                    "globalId": "Global Id",
+                    "businessUnit": "Unidad",
+                    "jobTitle": "Puesto",
+                    "from": "Proviene de",
+                    "exAdryan": "Código Adryan anterior",
+                    "exJobTitle": "Puesto anterior",
+                    "docType": "Tipo doc.",
+                    "docNumber": "Número doc.",
+                    "birthDate": "Fecha de nac.",
+                    "leader": "Jefe directo",
+                    "leaderNetUser": "Usuario RED jefe directo",
+                    "mailVersion": "Versión de correo"
+                }
+            }
+        },
+        "userdata": {
+            "empty": "Usuario sin datos en el sistema.",
+            "name":"Nombres",
+            "lastname":"Apellidos",
+            "entity":"Entidad",
+            "area":"Área",
+            "codarea":"Código (CDR)",
+            "job":"Puesto",
+            "codjob":"Código",
+            "country":"País"
+        },
+        "usersearch": {
+            "title": "Buscar usuario",
+            "search": {
+                "label": "Ingrese el código de usuario",
+                "required": "Se requiere el código de usuario",
+                "hint": "Presionar enter o clic en el ícono buscar"
+            }
+        },
+        "ticketview": {
+            "range": {
+                "label": "Rango de fechas",
+                "startDate": "Inicio",
+                "endDate": "Fin"
+            },
+            "search": {
+                "label": "Número de solicitud, solicitante o título"
+            },
+            "searchStatus": {
+                "label": "Estado del solicitud"
+            },
+            "authorizerUser": "Nombre Autorizador : '{{value}}'",
+            "refresh": "Recargar",
+            "authorizername": "Nombre Autorizador",
+            "tabTimeWait": "Tiempo espera",
+            "tabId": "Solicitud",
+            "tabTitle": "Título",
+            "tabDate": "Creación",
+            "tabStatus": "Estado",
+            "tabCompany": "Empresa",
+            "tabIssuerName": "Solicitante",
+            "tabSLA1": "Fecha SLA",
+            "tabSLA2": "Venc. SLA",
+            "tabEmpty": "Sin resultados",
+            "tabPriority": "Prioridad",
+            "priority": {
+                "1": "Alta",
+                "5": "Media",
+                "10": "Baja"
+            },
+            "status": {
+                "all": "Todas",
+                "0": "Creado",
+                "1": "Autorización pendiente",
+                "2": "Rechazado",
+                "3": "Aprobado por autorizador",
+                "4": "Asignado",
+                "5": "En proceso",
+                "6": "Parcial",
+                "7": "Atendido",
+                "8": "Cerrado",
+                "9": "Iniciado Operador",
+                "10": "Reasignado",
+                "11": "Anulado por el usuario",
+                "101": "Iniciado por Analista",
+                "102": "Dividido por Analista",
+                "103": "Autorización adicional pendiente",
+                "104": "Consulta a usuario",
+                "105": "Anulado por Analista",
+                "106": "Pendiente de asignación",
+                "107": "Asignado al equipo LAC",
+                "404": "SYS: Actualización en proceso",
+                "400": "Anulado por el sistema"
+            },
+            "type": {
+                "0": "Alta de usuario",
+                "1": "Baja de usuario",
+                "2": "Modificación permanente",
+                "3": "Modificación temporal",
+                "4": "Onboarding",
+                "51": "Carpeta compartida - Crear",
+                "52": "Carpeta compartida - Agregar Usuario(s)",
+                "53": "Carpeta compartida - Retirar Usuario(s)",
+                "61": "Base de datos - Agregar permisos",
+                "62": "Base de datos - Retirar permisos",
+                "71": "AIX | DB2 - Permiso SFTP | H2H",
+                "72": "AIX | DB2 - Agregar permisos sobre roles",
+                "73": "AIX | DB2 - Retirar permisos sobre roles",
+                "74": "AIX | DB2 - Agregar permisos sobre usuario",
+                "75": "AIX | DB2 - Retirar permisos sobre usuario",
+                "81": "FDC - Creación/Modificación",
+                "82": "FDC - Renombre",
+                "83": "FDC - Traslado",
+                "91": "Listas de distribución - Crear",
+                "92": "Listas de distribución - Modificar",
+                "93": "Listas de distribución - Eliminar",
+                "101": "Buzón de correo - Crear",
+                "102": "Buzón de correo - Modificar",
+                "103": "Buzón de correo - Modificar usuarios",
+                "104": "Buzón de correo - Eliminar",
+                "111": "Reset de clave",
+                "121": "Cambio de CDR",
+                "131": "Biometría / RENIEC",
+                "141": "Ambiente desarrollo - Creación AD",
+                "142": "Ambiente desarrollo - Creación BLASDESA",
+                "151": "Sistema de Pases",
+                "161": "Acceso VPN",
+                "999": "Otros",
+                "1000": "Consulta a Seguridad"
+            }
+        },
+        "ticketviewalt": {
+            "range": {
+                "label": "Rango de fechas",
+                "startDate": "Inicio",
+                "endDate": "Fin"
+            },
+            "search": {
+                "label": "Número de solicitud, solicitante o título"
+            },
+            "searchStatus": {
+                "label": "Estado del solicitud"
+            },
+            "searchPriority": {
+                "label": "Prioridad"
+            },
+            "refresh": "Recargar",
+            "tabId": "Solicitud",
+            "tabTitle": "Título",
+            "tabDate": "Creación",
+            "tabStatus": "Estado",
+            "tabEmpty": "Sin resultados",
+            "tabCompany": "Empresa",
+            "tabPriority": "Prioridad",
+            "tabIssuerName": "Solicitante",
+            "priority": {
+                "all": "Todas",
+                "1": "Alta",
+                "5": "Media",
+                "10": "Baja"
+            },
+            "status": {
+                "all": "Todas",
+                "0": "Creado",
+                "1": "Autorización pendiente",
+                "2": "Rechazado",
+                "3": "Aprobado por autorizador",
+                "4": "Asignado",
+                "5": "En proceso",
+                "6": "Parcial",
+                "7": "Atendido",
+                "8": "Cerrado",
+                "9": "Iniciado Operador",
+                "10": "Reasignado",
+                "11": "Anulado por el usuario",
+                "101": "Iniciado por Analista",
+                "102": "Dividido por Analista",
+                "103": "Autorización adicional pendiente",
+                "104": "Consulta a usuario",
+                "105": "Anulado por Analista",
+                "106": "Pendiente de asignación",
+                "107": "Asignado al equipo LAC",
+                "404": "SYS: Actualización en proceso",
+                "400": "Anulado por el sistema"
+            },
+            "type": {
+                "0": "Alta de usuario",
+                "1": "Baja de usuario",
+                "2": "Modificación permanente",
+                "3": "Modificación temporal",
+                "4": "Onboarding",
+                "51": "Carpeta compartida - Crear",
+                "52": "Carpeta compartida - Agregar Usuario(s)",
+                "53": "Carpeta compartida - Retirar Usuario(s)",
+                "61": "Base de datos - Agregar permisos",
+                "62": "Base de datos - Retirar permisos",
+                "71": "AIX | DB2 - Permiso SFTP | H2H",
+                "72": "AIX | DB2 - Agregar permisos sobre roles",
+                "73": "AIX | DB2 - Retirar permisos sobre roles",
+                "74": "AIX | DB2 - Agregar permisos sobre usuario",
+                "75": "AIX | DB2 - Retirar permisos sobre usuario",
+                "81": "FDC - Creación/Modificación",
+                "82": "FDC - Renombre",
+                "83": "FDC - Traslado",
+                "91": "Listas de distribución - Crear",
+                "92": "Listas de distribución - Modificar",
+                "93": "Listas de distribución - Eliminar",
+                "101": "Buzón de correo - Crear",
+                "102": "Buzón de correo - Modificar",
+                "103": "Buzón de correo - Modificar usuarios",
+                "104": "Buzón de correo - Eliminar",
+                "111": "Reset de clave",
+                "121": "Cambio de CDR",
+                "131": "Biometría / RENIEC",
+                "141": "Ambiente desarrollo - Creación AD",
+                "142": "Ambiente desarrollo - Creación BLASDESA",
+                "151": "Sistema de Pases",
+                "161": "Acceso VPN",
+                "999": "Otros",
+                "1000": "Consulta a Seguridad"
+            }
+        },
+        "formatModelOperator": "Descargar Archivo adjunto por el equipo IS&C Regional",
+        "ticketdetail": {
+            "formatModel": "Descargar el Formato/Plantilla adjunto",
+            "authorizerTitle": "Autorización",
+            "authorizerAditionalTitle": "Autorizador adicional",
+            "toUserTitle": "Usuario afectado",
+            "issuerTitle": "Usuario solicitante",
+            "operatorTitle": "Atención/Operador",
+            "analystTitle": "IS&C Regional - Team Perú",
+            "ticketDetail": "Detalle de la solicitud",
+            "init": "Iniciar",
+            "partial": "Atención PARCIAL",
+            "complete": "Atención COMPLETA",
+            "extraTitle": "Detalle",
+            "refresh": "Recargar",
+            "tabEmpty": "Sin resultados",
+            "tabStatus": "Estado",
+            "tabPriority": "Prioridad",
+            "tabUpdated": "Fecha/hora última actualización",
+            "tabData": "Código/Nombre Usuario",
+            "systemUser" : "Usuario de sistema.",
+            "detail": {
+                "issuer": "Generado por '{{value}}'",
+                "authorizer": "Autorizador: '{{value}}'",
+                "authorizerAditional": "Autorizador Adicional: '{{value}}'",
+                "analyst": "IS&C Regional - Team Perú: '{{value}}'",
+                "rejected": "Comentarios: '{{value}}'",
+                "approved": "Comentarios: '{{value}}'",
+                "assignee": "Operador: '{{value}}'",
+                "partial": "Comentarios: '{{value}}'",
+                "attended": "Comentarios: '{{value}}'",
+                "user": "Usuario respondió: '{{value}}'",
+                "subtitleAuthorizer": "Autorizador respondió",
+                "subtitleAditionalAuthorizer": "Autorizador Adicional respondió",
+                "subtitleOperator": "Operador respondió",
+                "subtitleAnalyst": "IS&C Regional - Team Perú respondió",
+                "subtitleUser": "Usuario respondió"
+            },
+            "status": {
+                "0": "Creado",
+                "1": "Autorización pendiente",
+                "2": "Rechazado",
+                "3": "Aprobado por autorizador",
+                "4": "Asignado",
+                "5": "En proceso",
+                "6": "Parcial",
+                "7": "Atendido",
+                "8": "Cerrado",
+                "9": "Iniciado Operador",
+                "10": "Reasignado",
+                "11": "Anulado por el usuario",
+                "101": "Iniciado por Analista",
+                "102": "Dividido por Analista",
+                "103": "Autorización adicional pendiente",
+                "104": "Consulta a usuario",
+                "105": "Anulado por Analista",
+                "106": "Pendiente de asignación",
+                "107": "Asignado al equipo LAC",
+                "404": "SYS: Actualización en proceso",
+                "400": "Anulado por el sistema"
+            },
+            "type": {
+                "0": "Alta de usuario",
+                "1": "Baja de usuario",
+                "2": "Modificación permanente",
+                "3": "Modificación temporal",
+                "4": "Onboarding",
+                "51": "Carpeta compartida - Crear",
+                "52": "Carpeta compartida - Agregar Usuario(s)",
+                "53": "Carpeta compartida - Retirar Usuario(s)",
+                "61": "Base de datos - Agregar permisos",
+                "62": "Base de datos - Retirar permisos",
+                "71": "AIX | DB2 - Permiso SFTP | H2H",
+                "72": "AIX | DB2 - Agregar permisos sobre roles",
+                "73": "AIX | DB2 - Retirar permisos sobre roles",
+                "74": "AIX | DB2 - Agregar permisos sobre usuario",
+                "75": "AIX | DB2 - Retirar permisos sobre usuario",
+                "81": "FDC - Creación/Modificación",
+                "82": "FDC - Renombre",
+                "83": "FDC - Traslado",
+                "91": "Listas de distribución - Crear",
+                "92": "Listas de distribución - Modificar",
+                "93": "Listas de distribución - Eliminar",
+                "101": "Buzón de correo - Crear",
+                "102": "Buzón de correo - Modificar",
+                "103": "Buzón de correo - Modificar usuarios",
+                "104": "Buzón de correo - Eliminar",
+                "111": "Reset de clave",
+                "121": "Cambio de CDR",
+                "131": "Biometría / RENIEC",
+                "141": "Ambiente desarrollo - Creación AD",
+                "142": "Ambiente desarrollo - Creación BLASDESA",
+                "151": "Sistema de Pases",
+                "161": "Acceso VPN",
+                "999": "Otros",
+                "1000": "Consulta a Seguridad"
+            }
+        }
+    },
+    "manage": {
+        "maindetail": {
+            "title": "Detalle de solicitud",
+            "userMessage": "Enviar respuesta",
+            "cancel": "Anular"
+        },
+        "main": {
+            "title": "Mis solicitudes"
+        },
+        "authorize": {
+            "title": "Aprobar/Rechazar solicitudes"
+        },
+        "authorizeDetail": {
+            "title": "Aprobar/Rechazar solicitud",
+            "cancel": "Cancelar",
+            "approve": "Aprobar",
+            "reject": "Rechazar"
+        },
+        "operator": {
+            "title": "Bandeja de atenciones"
+        },
+        "operatorDetail": {
+            "title": "Atención de solicitud",
+            "partial": "Atención PARCIAL",
+            "complete": "Atención COMPLETA",
+            "init": "Iniciar"
+        },
+        "qa": {
+            "title": "QA / Todas las solicitudes"
+        },
+        "qaDetail": {
+            "title": "Detalles de la solicitud"
+        },
+        "lac": {
+            "title": "IS&C Regional - Team Perú"
+        },
+        "lacDetail": {
+            "main": {
+                "title": "Detalles de la solicitud",
+                "reject": "Rechazar",
+                "cancel": "Anular",
+                "addAuth": "Autorizador adicional",
+                "toUser": "Consulta a Usuario",
+                "divide": "Partir",
+                "assign": "Asignar",
+                "reassign": "Re-Asignar",
+                "init": "Iniciar"
+            },
+            "reject": {
+                "titleR": "Rechazar solicitud",
+                "titleC": "Anular solicitud",
+                "titleU": "Consulta a usuario",
+                "comments": "Comentarios",
+                "cancel": "Cancelar",
+                "accept": "Aceptar",
+                "errors": {
+                    "required": "Requerido"
+                }
+            },
+            "addAuth": {
+                "title": "Autorizador adicional",
+                "authorizer": "Autorizador",
+                "comments": "Comentarios",
+                "cancel": "Cancelar",
+                "accept": "Aceptar",
+                "errors": {
+                    "required": "Requerido"
+                }
+            },
+            "operator": {
+                "title": "Asignar",
+                "operator": "Operador",
+                "listPriorities": "Prioridad",
+                "priority": {
+                    "1": "Alta",
+                    "5": "Media",
+                    "10": "Baja"
+                },
+                "sla": {
+                    "title": "SLA",
+                    "1h": "1 hora",
+                    "2h": "2 horas",
+                    "4h": "4 horas",
+                    "8h": "8 horas",
+                    "9h": "1 día",
+                    "18h": "2 días",
+                    "27h": "3 días",
+                    "36h": "4 días",
+                    "45h": "5 días"
+                },
+                "comments": "Comentarios",
+                "cancel": "Cancelar",
+                "accept": "Aceptar",
+                "errors": {
+                    "required": "Requerido"
+                }
+            }
+        }
+    },
+    "general": {
+        "title": "Nueva solicitud",
+        "applicantTitle": "Usuario solicitante",
+        "saved": "Solicitud creada. ID de solicitud {{id}}",
+        "main": {
+            "destinationTitle": "¿Para quién es el requerimiento?",
+            "destinationS": "Para mí",
+            "destinationO": "Para otro(s) usuario",
+            "destinationN": {
+                "title": "No perfiladas",
+                "1_shared": "Carpeta compartida",
+                "2_database": "Base de datos",
+                "3_aixdb2": "AIX/DB2",
+                "4_fdc": "Fondo de Comercio (FDC)",
+                "5_distlist": "Lista de Distribución",
+                "6_mailboxes": "Buzón de correo genérico",
+                "7_reset": "Reset de clave",
+                "8_cdr": "Cambio de CDR",
+                "9_reniec": "Biometría/Reniec",
+                "10_environment": "Ambiente Desarrollo",
+                "11_pass": "Sistema de Pases",
+                "12_vpn": "Acceso VPN"
+            },
+            "destinationOthers": {
+                "title": "Otros"
+            },
+            "typeTitle": "¿Qué tipo de requerimiento es?",
+            "typeC": "Alta",
+            "typePU": "Modificación",
+            "typeTU": "Modificación Temporal",
+            "typeD": "Baja",
+            "typeOB": "On Boarding",
+            "next": "Siguiente"
+        },
+        "f0":{
+            "searchDialog": {
+                "title": "Usuarios",
+                "userCode": "Código",
+                "userName": "Nombres",
+                "userSurname": "Apellidos",
+                "empty": "No hay resultados"
+            }
+        },
+        "f1": {
+            "main": {
+                "title": "On boarding",
+                "comments": "Comentarios u observaciones",
+                "send": "Enviar",
+                "chooseFile": "Cargar plantilla",
+                "formatModel": "Descargar formato/plantilla",
+                "error": {
+                    "length": "- Error en la fila {{row}}. Debe tener exactamente 20 columnas (A:T).",
+                    "type": "- Error en la celda {{cell}}:{{row}}. Tipo inválido. Debe ser 'INGRESO', 'REINGRESO' o 'TRASLADO'.",
+                    "numeric": "- Error en la celda {{cell}}:{{row}}. Debe ser un valor numérico.",
+                    "globalId": "- Error en la celda {{cell}}:{{row}}. El Global Id debe tener 8 caracteres, iniciando por una 'S'.",
+                    "required": "- Error en la celda {{cell}}:{{row}}. Se requiere un valor, actualmente vacío.",
+                    "date": "- Error en la celda {{cell}}:{{row}}. Se requiere un valor tipo fecha."
+                }
+            }
+        },
+        "f2": {
+            "create": {
+                "title": "Registrar nuevo usuario",
+                "titleSearch": "Buscar usuario",
+                "lastname": {
+                    "label": "Apellido paterno",
+                    "required": "Ingrese el apellido paterno del nuevo empleado"
+                },
+                "middlename": {
+                    "label": "Apellido materno",
+                    "required": "Ingrese el apellido materno del nuevo empleado"
+                },
+                "firstname": {
+                    "label": "Nombres",
+                    "required": "Ingrese los nombres completos de nuevo empleado"
+                },
+                "globalId": {
+                    "label": "Id global",
+                    "required": "Ingrese el GlobalId del nuevo empleado"
+                },
+                "employeeId": {
+                    "label": "Id de empleado",
+                    "required": "Ingrese el número de identificación del nuevo empleado"
+                },
+                "documentNumber": {
+                    "label": "Documento",
+                    "required": "Ingrese los número de documento del nuevo empleado"
+                },
+                "birthdate": {
+                    "label": "Fecha de nacimiento",
+                    "required": "Seleccione la fecha de nacimiento del nuevo empleado"
+                },
+                "cdrId": {
+                    "label": "Cdr",
+                    "required": "Seleccione un CDR"
+                },
+                "jobId": {
+                    "label": "Puesto",
+                    "required": "Seleccione un puesto"
+                },
+                "send": "Enviar solicitud de alta",
+                "saved": "Solicitud creada. ID de solicitud {{id}}"
+            },
+            "delete": {
+                "title": "Dar de baja a usuario",
+                "toUserTitle": "Usuario afectado",
+                "send": "Enviar solicitud"
+            },
+            "permupdate": {
+                "searchTitle": "Buscar usuario a modificar",
+                "toUserTitle": "Usuario afectado",
+                "send": "Enviar solicitud",
+                "title": "Nuevos datos",
+                "cdrId": {
+                    "label": "Nuevo Cdr",
+                    "required": "Seleccione un CDR"
+                },
+                "jobId": {
+                    "label": "Nuevo Puesto",
+                    "required": "Seleccione un puesto"
+                },
+                "startDate": {
+                    "label": "Fecha inicio",
+                    "required": "Seleccione una fecha de inicio del permiso"
+                },
+                "endDate": {
+                    "label": "Fecha Fin",
+                    "required": "Seleccione una fecha fin del permiso"
+                },
+                "comments": {
+                    "label": "Comentarios y/o detalles adicionales"
+                }
+            }
+        },
+        "f3": {
+            "addDialog": {
+                "accept": "Guardar",
+                "cancel": "Cancelar",
+                "errors": {
+                    "pattern": "No se permiten caracteres especiales",
+                    "required": "Requerido",
+                    "email": "Ingrese un correo electrónico válido",
+                    "matDatepickerParse": "Seleccione una fecha válida"
+                },
+                "s01": {
+                    "title": "Datos de la carpeta compartida",
+                    "titleAdd": "Agregar permiso",
+                    "titleRemove": "Retirar permiso",
+                    "folder": "Ruta",
+                    "type": "Tipo de acceso",
+                    "user": "Apellidos y nombres",
+                    "globalId": "Global Id",
+                    "btCode": "Código BT",
+                    "date": "Vigencia",
+                    "dateCheckbox": "¿Establecer vigencia?",
+                    "read": "LECTURA",
+                    "write": "ESCRITURA",
+                    "readwrite": "LECTURA/ESCRITURA"
+                },
+                "s02": {
+                    "titleAdd": "Agregar permiso a usuario",
+                    "titleRemove": "Retirar permiso a usuario",
+                    "server": "Servidor",
+                    "database": "Base de datos",
+                    "databaseHint": "Puede agregar mas de un elemento Base de datos separado por comas",
+                    "type": "Tipo de acceso",
+                    "user": "Apellidos y nombres",
+                    "globalId": "Global Id",
+                    "btCode": "Código de empleado",
+                    "date": "Vigencia",
+                    "dateCheckbox": "¿Establecer vigencia?",
+                    "read": "Lectura",
+                    "write": "Escritura",
+                    "readwrite": "Lectura y escritura",
+                    "create": "Creación",
+                    "all": "Todos"
+                },
+                "s03": {
+                    "title": "Plataforma AIX | Db2",
+                    "titleH2H": "Permiso SFTP | H2H",
+                    "titleAdd": "Agregar permisos sobre roles",
+                    "titleRemove": "Retirar permisos sobre roles",
+                    "titleAddUser": "Agregar permisos sobre usuario",
+                    "titleRemoveUser": "Retirar permisos sobre usuario",
+                    "environment": "Ambiente",
+                    "company": "Empresa",
+                    "contactMail": "Mail de contacto",
+                    "comments": "Comentarios",
+                    "server": "Servidor/Instancia",
+                    "database": "Base de datos",
+                    "roleTableSchema": "Rol/Tabla/Esquema",
+                    "roleAccess": "Acceso sobre rol",
+                    "tableSchema": "Rol/Tabla/Esquema",
+                    "tableSchemaHint": "Puede agregar mas de un Rol/Tabla/Esquema separado por comas",
+                    "user": "Apellidos y nombres",
+                    "globalId": "Global Id",
+                    "btCode": "Código BT",
+                    "date": "Vigencia",
+                    "dateCheckbox": "¿Establecer vigencia?"
+                },
+                "s04": {
+                    "titleCreate": "Creación/Modificación",
+                    "titleRename": "Renombre",
+                    "titleUpdate": "Traslado",
+                    "action": "Acción",
+                    "create": "CREAR",
+                    "update": "MODIFICAR",
+                    "userFrom": "Apellidos y nombres (origen)",
+                    "btCodeFrom": "Código BT (origen)",
+                    "userTo": "Apellidos y nombres (destino)",
+                    "btCodeTo": "Código BT (destino)",
+                    "comments": "Comentarios",
+                    "fdcCode": "Código FDC",
+                    "fdcCodeHint": "El usuario debe estar asignado al mismo Fondo de Comercio sobre el que está ejecutando la acción",
+                    "user": "Apellidos y nombres",
+                    "btCode": "Código BT",
+                    "cdr": "Cdr"
+                },
+                "s05": {
+                    "titleCreate": "Crear lista de distribución",
+                    "titleUpdate": "Modificar lista de distribución",
+                    "titleDelete": "Eliminar lista de distribución",
+                    "hint": "La solicitud se ejecutará sobre usuarios que se encuentren en Exchange",
+                    "listName": "Nombre de lista",
+                    "suggestedMail": "Correo sugerido",
+                    "globalIdAdmin": "Global ID (admin)",
+                    "btCodeAdmin": "Código BT (admin)",
+                    "userAdmin": "Apellidos y nombres (admin)",
+                    "comments": "Comentarios",
+                    "newListName": "Nuevo nombre de lista",
+                    "mail": "Correo electrónico",
+                    "newMail": "Nuevo correo electrónico",
+                    "newMailCheckbox": "¿Cambiar correo electrónico?",
+                    "newMailHint": "Si no hay cambios puede dejar este campo vacío."
+                },
+                "s06": {
+                    "createDialog": {
+                        "titleAdd": "Crear buzón de correo",
+                        "titleUpdate": "Modificar buzón de correo",
+                        "titleAddUser": "Datos del usuario",
+                        "mailBoxName": {
+                            "label": "Nombre del buzón",
+                            "required": "Requerido"
+                        },
+                        "mailBoxMail": {
+                            "label": "Correo electrónico del buzón",
+                            "required": "Requerido",
+                            "email": "Ingrese un correo electrónico válido"
+                        },
+                        "globalId": {
+                            "label": "Global Id",
+                            "required": "Requerido"
+                        },
+                        "btCode": {
+                            "label": "Código BT",
+                            "required": "Requerido"
+                        },
+                        "userCode": {
+                            "label": "Usuario",
+                            "required": "Requerido"
+                        },
+                        "user": {
+                            "label": "Apellidos y nombres",
+                            "required": "Requerido"
+                        },
+                        "action": {
+                            "label": "Acción",
+                            "required": "Requerido"
+                        },
+                        "empty": "Sin datos",
+                        "accept": "Guardar",
+                        "cancel": "Cancelar"
+                    },
+                    "titleCreate": "Crear buzón de correo",
+                    "titleUpdate": "Modificar buzón de correo",
+                    "titleUpdateUsers": "Modificar usuarios de buzón de correo",
+                    "titleDelete": "Eliminar buzón de correo",
+                    "mailBoxName": "Nombre del buzón",
+                    "mailBoxMail": "Correo electrónico del buzón",
+                    "newMailBoxName": "Nuevo nombre del buzón",
+                    "newMailBoxMail": "Nuevo correo electrónico del buzón",
+                    "userCode": "Usuario",
+                    "user": "Apellidos y nombres",
+                    "globalId": "Global Id",
+                    "btCode": "Código BT",
+                    "comments": "Comentarios",
+                    "action": "Acción",
+                    "add": "Agregar usuario",
+                    "remove": "Eliminar usuario"
+                },
+                "s07": {
+                    "titleAdd": "Agregar Reset de clave",
+                    "globalId": "Global ID",
+                    "user": "Apellidos y nombres",
+                    "application": "Aplicación",
+                    "applicationCode": "Código de usuario de aplicación",
+                    "functionalJob": "Puesto funcional",
+                    "functionalJobHint": "Si no aplica, puede dejar el campo vacío."
+                },
+                "s08": {
+                    "titleAdd": "Agregar Cambio de CDR",
+                    "globalId": "Global ID",
+                    "btCode": "Código BT",
+                    "user": "Apellidos y nombres",
+                    "cdrTo": "CDR Destino",
+                    "functionalJob": "Puesto funcional",
+                    "applications": "Aplicaciones",
+                    "applicationsHint": "Puede seleccionar múltiples elementos."
+                },
+                "s09": {
+                    "titleAdd": "Agregar Biometría/RENIEC",
+                    "user": "Apellidos y nombres",
+                    "dnice": "DNI / CE",
+                    "birthDate": "Fecha de nacimiento",
+                    "globalId": "Global ID",
+                    "btCode": "Código BT",
+                    "functionalJob": "Puesto funcional",
+                    "comments": "Comentarios"
+                },
+                "s10": {
+                    "titleCreateAD": "Creación AD",
+                    "titleCreateBLASDESA": "Creación BLASDESA",
+                    "globalId": "Global ID",
+                    "btCode": "Código BT",
+                    "user": "Apellidos y nombres",
+                    "effectiveDate": "Fecha de vigencia"
+                },
+                "s11": {
+                    "titleAdd": "Sistema de pases",
+                    "blasdesaUser": "Usuario Blasdesa",
+                    "user": "Apellidos y nombres",
+                    "mail": "Email",
+                    "extension": "Anexo",
+                    "workGroup": "Grupo de trabajo",
+                    "blasdesaCode": "Código Blasdesa/Externo"
+                },
+                "s12": {
+                    "titleAdd": "Acceso VPN",
+                    "globalId": "Global ID",
+                    "user": "Apellidos y nombres",
+                    "mail": "Email",
+                    "globalIdSup": "Global ID (Supervisor)",
+                    "userSup": "Apellidos y nombres (Supervisor)",
+                    "mailSup": "Email (Supervisor)",
+                    "employeeType": "Tipo de empleado",
+                    "fte": "FTE",
+                    "contractor": "CONTRACTOR"
+
+                },
+                "s999": {
+                    "user": "Apellidos y nombres",
+                    "globalId": "Global ID",
+                    "btCode": "Código BT",
+                    "comments": "Comentarios",
+                    "date": "Fecha",
+                    "environment": "Ambiente",
+                    "wildcard": "Comodín",
+                    "cdr": "Cdr"
+                }
+            },
+            "loadData": {
+                "titleFileUpload": "Adjuntar formato",
+                "titleAttachUpload": "Carga de datos",
+                "formatModel": "Descargar formato/plantilla",
+                "comments": "Comentarios",
+                "or": "o",
+                "addData": "Agregar datos manualmente",
+                "reset": "Limpiar",
+                "error": {
+                    "empty": "Plantilla vacía",
+                    "combo": "{{cell}}:{{row}} - Debe ser {{opts}} (valor actual: '{{value}}')",
+                    "date": "{{cell}}:{{row}} - Debe ser fecha (valor actual: '{{value}}')",
+                    "invalid": "{{cell}}:{{row}} - Valor nulo o inválido (valor actual: '{{value}}')",
+                    "pattern": "No se permiten caracteres especiales"
+                },
+                "send": "Enviar solicitud"
+            },
+            "s01": {
+                "title": "Carpetas compartidas",
+                "create": "Crear carpeta",
+                "add": "Agregar permisos",
+                "remove": "Retirar permisos"
+            },
+            "s02": {
+                "title": "Base de datos",
+                "titleAdd": "Agregar permiso a usuario",
+                "titleRemove": "Retirar permiso a usuario"
+            },
+            "s03": {
+                "title": "Plataforma AIX | DB2",
+                "titleH2H": "Permiso SFTP | H2H",
+                "titleAdd": "Agregar permisos sobre roles",
+                "titleRemove": "Retirar permisos sobre roles",
+                "titleAddUser": "Agregar permisos sobre usuario",
+                "titleRemoveUser": "Retirar permisos sobre usuario"
+            },
+            "s04": {
+                "title": "Fondo de Comercio (FDC)",
+                "titleCreate": "Creación/Modificación",
+                "titleRename": "Renombre",
+                "titleUpdate": "Traslado"
+            },
+            "s05": {
+                "title": "Listas de distribución",
+                "titleCreate": "Crear lista de distribución",
+                "titleUpdate": "Modificar lista de distribución",
+                "titleDelete": "Eliminar lista de distribución"
+            },
+            "s06": {
+                "title": "Buzón de correo genérico",
+                "titleCreate": "Crear buzón de correo",
+                "titleUpdate": "Modificar buzón de correo",
+                "titleUpdateUsers": "Modificar usuarios de buzón de correo",
+                "titleDelete": "Eliminar buzón de correo"
+            },
+            "s07": {
+                "title": "Reset de clave"
+            },
+            "s08": {
+                "title": "Cambio de CDR"
+            },
+            "s09": {
+                "title": "Biometría/RENIEC"
+            },
+            "s10": {
+                "title": "Ambiente Desarrollo",
+                "titleCreateAD": "Creación AD",
+                "titleCreateBLASDESA": "Creación BLASDESA"
+            },
+            "s11": {
+                "title": "Sistema de Pases"
+            },
+            "s12": {
+                "title": "Acceso VPN"
+            }
+        },
+        "others": {
+            "title": "Consultas IS&C LAC LATAM REGIONAL",
+            "applicantTitle":"Usuario solicitante",
+            "application": {
+                "label": "Aplicación",
+                "required": "Ingrese el nombre de la aplicación"
+            },
+            "company": {
+                "label": "Empresa",
+                "required": "Ingrese el nombre de la empresa"
+            },
+            "functionalJob": {
+                "label": "Puesto funcional de los usuarios que requieren el acceso",
+                "required": "Ingrese el Puesto funcional de los usuarios que requieren el acceso"
+            },
+            "permanent": {
+                "label": "Permanente"
+            },
+            "detail": {
+                "label": "Detalles",
+                "required": "Ingrese el detalle de su solicitud"
+            },
+            "send": "Enviar solicitud",
+            "saved": "Solicitud creada. ID de solicitud {{id}}"
+        }
+    },
+    "error": {
+        "duplicate": "No pudimos guardar la información. El elemento con los datos proporcionados ya existe.",
+        "generic": "Lo sentimos. No pudimos gestionar la información con el motor de datos.",
+        "invalid_file_size": "Tamaño de archivo no válido. "
+    },
+    "widgets": {
+        "delete": {
+            "title": "Eliminar '{{name}}'",
+            "message": "Se eliminarán los datos permanentemente. Luego de su confirmación, estos no podrán ser recuperados.",
+            "subtitle": "Para confirmar la eliminación, escriba '{{name}}' a continuación",
+            "required": "Ingrese '{{name}}' para confirmar",
+            "cancel": "Cancelar",
+            "accept": "Aceptar"
+        },
+        "upload": {
+            "title1": "Subir plantillas(s)",
+            "upload1": "Cargar plantilla",
+            "add": "Añadir",
+            "upload": "Cargar",
+            "complete": "Carga finalizada",
+            "cancel": "Cancelar",
+            "finish": "Salir"
+        }
+    },
+    "home": {
+        "welcome": "Bienvenido a",
+        "user": "¡Bienvenid@, {{value}}!",
+        "empty_title": "Sin permisos asignados",
+        "empty_message": "Consulta con tu administrador y vuelve a intentarlo.",
+        "code": "[Código de estado: {{value}}]",
+        "retry": "Reintentar"
+    },
+    "nav": {
+        "dashboard": "Dashboard",
+        "qty_request": "Cantidad Solicitudes",
+        "status_request": "Estado Solicitudes",
+        "sla_request": "SLAs",
+        "home": "Inicio",
+        "new": "Nueva Solicitud",
+        "isc": "Consultas IS&C LAC LATAM REGIONAL",
+        "tickets": "Mis solicitudes",
+        "authorize": "Autorizaciones",
+        "operator": "Mis asignaciones",
+        "qa": "QA",
+        "lac": "IS&C Regional - Team Perú",
+        "maintenance": "Mantenimiento",
+        "usucdr": "Usuarios: Excepción CDR",
+        "cnfglo": "Globales",
+        "appcdr": "App: Cambio CDR",
+        "appres": "App: Reseteo de clave",
+        "usuaut": "Autorizador adicional",
+        "cnftat": "Tipos de atención",
+        "cnfpue": "Puestos",
+        "cnfapp": "Aplicaciones",
+        "cnfnot": "Notificaciones",
+        "cnfest": "Estados",
+        "cnfope": "Operador",
+        "manuals": "Ayuda",
+        "mgeneral":"Manual de Usuario General",
+        "mauthorizing":"Manual de usuario Autorizador",
+        "moperator":"Manual de usuario Operador",
+        "mqa":"Manual de usuario QA",
+        "mlac":"Manual de usuario LAC",
+        "mmaintenance":"Manual de usuario Mantenimiento"
+    },
+    "maintenance": {
+        "usucdr": {
+            "title": "Agregar Excepción de CDR a usuarios",
+            "code": "Código de empleado",
+            "data": "Datos del usuario",
+            "required": "Ingrese el dato solicitado para continuar",
+            "empty": "No encontramos datos para su búsqueda",
+            "lastname": "Apellido paterno",
+            "motherlastname": "Apellido materno",
+            "firstname": "Nombre(s)",
+            "idtype": "Tipo de documento",
+            "idnumber": "Número de documento",
+            "globalid": "Global ID",
+            "counter": "(Excepciones seleccionadas: {{data}})",
+            "cancel": "Cancelar",
+            "save": "Guardar",
+            "saved": "Datos actualizados correctamente"
+        },
+        "cnfglo": {
+            "title": "Variables Globales del Sistema",
+            "maxaut": "Máximo tiempo de autorización",
+            "maxautunit": "horas",
+            "maxpro": "Máximo tiempo de vigencia cambio de perfil",
+            "maxprounit": "días calendario",
+            "maxper": "Máximo tiempo de vigencia de permisos",
+            "maxperunit": "días calendario",
+            "maxfil": "Máximo número de archivos de creación de carpetas compartidas",
+            "maxfilunit": "Cantidad",
+            "maxsiz": "Máximo tamaño de archivos adjuntos",
+            "maxsizunit": "kilobytes (kB)",
+            "required": "Requerido",
+            "save": "Guardar",
+            "saved": "Datos actualizados correctamente",
+            "maxusu": "Máximo tiempo de consulta a usuario",
+            "maxusuunit": "horas"
+        },
+        "appcdr": {
+            "title": "Aplicaciones que permiten cambio de CDR",
+            "name": "Nombre de la aplicación",
+            "required": "Requerido",
+            "invalid": "Seleccione una aplicación de la lista",
+            "add": "Añadir",
+            "header": "Aplicaciones agregadas",
+            "saved": "Datos actualizados correctamente"
+        },
+        "appres": {
+            "title": "Aplicaciones que permiten resetear contraseña",
+            "name": "Nombre de la aplicación",
+            "required": "Requerido",
+            "invalid": "Seleccione una aplicación de la lista",
+            "add": "Añadir",
+            "header": "Aplicaciones agregadas",
+            "saved": "Datos actualizados correctamente"
+        },
+        "usuaut": {
+            "title": "Autorizadores adicionales",
+            "code": "Código de empleado",
+            "required": "Ingrese el dato solicitado para continuar",
+            "empty": "No encontramos datos para su búsqueda",
+            "lastname": "Apellido paterno",
+            "motherlastname": "Apellido materno",
+            "firstname": "Nombre(s)",
+            "idtype": "Tipo de documento",
+            "idnumber": "Número de documento",
+            "globalid": "Global ID",
+            "company": "Empresa",
+            "cdr": "Cdr",
+            "add": "Agregar",
+            "added": "Ya agregado",
+            "tabempty": "(Sin datos)",
+            "tabactions": "#",
+            "tabglobalid": "Global ID",
+            "tabuser": "Usuario",
+            "tabname": "Nombres",
+            "tabcompany": "Empresa",
+            "tabcdr": "Cdr",
+            "saved": "Datos actualizados correctamente"
+        },
+        "cnfapp": {
+            "title": "Lista de aplicaciones",
+            "add": "Crear aplicación",
+            "refresh": "Recargar",
+            "tabactions": " ",
+            "tabcode": "Cód.",
+            "tabname": "Nombre",
+            "tabsituation": "Tipo de atención",
+            "tabstatus": "Estado",
+            "tabsla": "Sla",
+            "tabempty": "(Sin datos)",
+            "manual": "manual",
+            "search": "Nombre",
+            "robotic": "robotizada",
+            "external": "externa",
+            "active": "Activa",
+            "inactive": "Inactiva",
+            "saved": "Datos actualizados correctamente",
+            "dialog": {
+                "title": "Aplicación - {{name}}",
+                "new": "Nueva",
+                "code": "Código",
+                "name": "Nombre de la aplicación",
+                "sla": "Sla",
+                "manual": "manual",
+                "robotic": "robotizada",
+                "external": "externa",
+                "allowCdrChange": "Cambio de CDR",
+                "allowPasswordReset": "Cambio de password",
+                "active": "Activa",
+                "cancel": "Cancelar",
+                "accept": "Guardar",
+                "required": "Ingrese el dato solicitado para continuar"
+            }
+        },
+        "cnfpue": {
+            "title": "Lista de puestos",
+            "add": "Crear puesto",
+            "refresh": "Recargar",
+            "tabactions": " ",
+            "tabcode": "Cód.",
+            "tabname": "Nombre",
+            "tabsituation": "Tipo de atención",
+            "tabstatus": "Estado",
+            "tabempty": "(Sin datos)",
+            "manual": "manual",
+            "robotic": "robotizado",
+            "active": "Activo",
+            "inactive": "Inactivo",
+            "saved": "Datos actualizados correctamente",
+            "dialog": {
+                "title": "Puesto - {{name}}",
+                "new": "Nuevo",
+                "code": "Código",
+                "name": "Nombre del puesto",
+                "manual": "manual",
+                "robotic": "robotizado",
+                "active": "Activo",
+                "cancel": "Cancelar",
+                "accept": "Guardar",
+                "required": "Ingrese el dato solicitado para continuar"
+            }
+        },
+        "cnfope": {
+            "title": "Operadores",
+            "add": "Añadir operador",
+            "refresh": "Recargar",
+            "tabempty": "(Sin datos)",
+            "tabactions": " ",
+            "tabglobalid": "Global ID",
+            "tabuser": "Usuario",
+            "tabname": "Nombres",
+            "tabcompany": "Empresa",
+            "tabcdr": "Cdr",
+            "saved": "Datos actualizados correctamente",
+            "dialog": {
+                "title": "Operador - {{name}}",
+                "new": "Nuevo",
+                "empty": "No encontramos datos para su búsqueda",
+                "code": "Código de empleado",
+                "robot": "Robot",
+                "day0": "Lunes",
+                "day1": "Martes",
+                "day2": "Miércoles",
+                "day3": "Jueves",
+                "day4": "Viernes",
+                "day5": "Sábado",
+                "day6": "Domingo",
+                "fromHour": "Desde",
+                "fromMinute": "minuto",
+                "toHour": "Hasta",
+                "toMinute": "minuto",
+                "break": "break",
+                "cancel": "Cancelar",
+                "accept": "Guardar",
+                "required": "Ingrese el dato solicitado para continuar",
+                "onboarding": "On boarding",
+                "error": {
+                    "duplicated": "El operador ya está registrado",
+                    "minutes": "Compruebe los minutos ingresados. La hora máxima 'Hasta' es 00:00.",
+                    "hours": "Compruebe las horas ingresadas.",
+                    "diff": "La diferencia de tiempo (restando el break) es menor o igual a 0."
+                }
+            }
+        },
+        "cnfest": {
+            "title": "Estados de solicitudes",
+            "add": "Añadir estado",
+            "refresh": "Recargar",
+            "tabempty": "(Sin datos)",
+            "tabactions": " ",
+            "tabform": "Formulario",
+            "tabstatustype": "Estado",
+            "saved": "Datos actualizados correctamente",
+            "form": {
+                "other": "De contacto",
+                "individual": "Individual",
+                "onboarding": "Onboarding masivo",
+                "special": "Especial"
+            },
+            "status": {
+                "all": "Todas",
+                "0": "Creado",
+                "1": "Autorización pendiente",
+                "2": "Rechazado",
+                "3": "Aprobado",
+                "4": "Asignado",
+                "5": "En proceso",
+                "6": "Parcial",
+                "7": "Atendido",
+                "9": "Iniciado Operador",
+                "10": "Reasignado"
+            },
+            "dialog": {
+                "title": "Asignar estado a formulario",
+                "formLabel": "Tipo de formulario",
+                "statusLabel": "Estado",
+                "required": "Requerido",
+                "cancel": "Cancelar",
+                "accept": "Asignar",
+                "form": {
+                    "other": "De contacto",
+                    "individual": "Individual",
+                    "onboarding": "Onboarding masivo",
+                    "special": "Especial"
+                },
+                "status": {
+                    "all": "Todas",
+                    "0": "Creado",
+                    "1": "Autorización pendiente",
+                    "2": "Rechazado",
+                    "3": "Aprobado",
+                    "4": "Asignado",
+                    "5": "En proceso",
+                    "6": "Parcial",
+                    "7": "Atendido",
+                    "9": "Iniciado Operador",
+                    "10": "Reasignado"
+                }
+            }
+        },
+        "cnfnot": {
+            "title": "Notificaciones",
+            "add": "Añadir",
+            "refresh": "Recargar",
+            "upload": "Cargar plantilla",
+            "tabempty": "(Sin datos)",
+            "tabactions": " ",
+            "tabactor": "Actor",
+            "tabstatustype": "Estado",
+            "tabfile": "Plantilla",
+            "saved": "Datos actualizados correctamente",
+            "actor": {
+                "applicant": "Solicitante",
+                "approver": "Autorizador"
+            },
+            "status": {
+                "all": "Todas",
+                "0": "Creado",
+                "1": "Autorización pendiente",
+                "2": "Rechazado",
+                "3": "Aprobado por autorizador",
+                "4": "Asignado",
+                "5": "En proceso",
+                "6": "Parcial",
+                "7": "Atendido",
+                "8": "Cerrado",
+                "9": "Iniciado Operador",
+                "10": "Reasignado",
+                "11": "Anulado por el usuario",
+                "101": "Iniciado por Analista",
+                "102": "Dividido por Analista",
+                "103": "Autorización adicional pendiente",
+                "104": "Consulta a usuario",
+                "105": "Anulado por Analista",
+                "106": "Pendiente de asignación",
+                "107": "Asignado al equipo LAC",
+                "404": "SYS: Actualización en proceso",
+                "400": "Anulado por el sistema"
+            },
+            "dialog": {
+                "title": "Asignar notificaciones",
+                "actorLabel": "Destinatario",
+                "statusLabel": "Estado",
+                "templateLabel": "Plantilla",
+                "required": "Requerido",
+                "cancel": "Cancelar",
+                "accept": "Asignar",
+                "actor": {
+                    "applicant": "Solicitante",
+                    "approver": "Autorizador"
+                },
+                "status": {
+                    "all": "Todas",
+                    "0": "Creado",
+                    "1": "Autorización pendiente",
+                    "2": "Rechazado",
+                    "3": "Aprobado por autorizador",
+                    "4": "Asignado",
+                    "5": "En proceso",
+                    "6": "Parcial",
+                    "7": "Atendido",
+                    "8": "Cerrado",
+                    "9": "Iniciado Operador",
+                    "10": "Reasignado",
+                    "11": "Anulado por el usuario",
+                    "101": "Iniciado por Analista",
+                    "102": "Dividido por Analista",
+                    "103": "Autorización adicional pendiente",
+                    "104": "Consulta a usuario",
+                    "105": "Anulado por Analista",
+                    "106": "Pendiente de asignación",
+                    "107": "Asignado al equipo LAC",
+                    "404": "SYS: Actualización en proceso",
+                    "400": "Anulado por el sistema"
+                }
+            }
+        },
+        "cnftat": {
+            "title": "Formularios dinámicos/Tipos de atención",
+            "add": "Añadir",
+            "refresh": "Recargar",
+            "tabactions": " ",
+            "tabname": "Nombre",
+            "tabaction": "Acción",
+            "tabempty": "(Sin datos)",
+            "saved": "Datos actualizados correctamente",
+            "dialog": {
+                "title": "Agregar tipo",
+                "formNameLabel": "Nombre de formulario",
+                "actionNameLabel": "Acción",
+                "isAutomatedLabel": "Robotizado",
+                "slaLabel": "Sla",
+                "wildcardLabel": "Comodín",
+                "hasNamesLabel": "Nombres y apellidos",
+                "hasGlobalIdLabel": "Global Id",
+                "hasBtCodeLabel": "Código Bt",
+                "hasCdrLabel": "Cdr",
+                "hasCommentsLabel": "Comments",
+                "hasDateLabel": "Fecha",
+                "hasEnvironmentLabel": "Ambiente",
+                "required": "Requerido",
+                "cancel": "Cancelar",
+                "accept": "Guardar"
+            }
+        }
+    }
+}
